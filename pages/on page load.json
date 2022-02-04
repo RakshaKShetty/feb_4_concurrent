@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1210,
+          "bottomRow": 1590,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -833,7 +833,7 @@
                   "key": "primaryColumns.homepage.computedValue"
                 }
               ],
-              "leftColumn": 12,
+              "leftColumn": 1,
               "primaryColumns": {
                 "appsmith_mongo_escape_id": {
                   "index": 6,
@@ -1045,7 +1045,7 @@
               "delimiter": ",",
               "key": "x2981y4pei",
               "derivedColumns": {},
-              "rightColumn": 46,
+              "rightColumn": 35,
               "textSize": "PARAGRAPH",
               "widgetId": "t133952leq",
               "isVisibleFilters": true,
@@ -1096,6 +1096,164 @@
               "isLoading": false,
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
+            },
+            {
+              "widgetName": "Table3",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "postId",
+                "id",
+                "name",
+                "email",
+                "body"
+              ],
+              "isVisibleDownload": true,
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+              "topRow": 120,
+              "bottomRow": 157,
+              "isSortable": true,
+              "parentRowSpace": 10,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "animateLoading": true,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.postId.computedValue"
+                },
+                {
+                  "key": "primaryColumns.id.computedValue"
+                },
+                {
+                  "key": "primaryColumns.name.computedValue"
+                },
+                {
+                  "key": "primaryColumns.email.computedValue"
+                },
+                {
+                  "key": "primaryColumns.body.computedValue"
+                }
+              ],
+              "leftColumn": 0,
+              "primaryColumns": {
+                "postId": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "postId",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "postId",
+                  "computedValue": "{{Table3.sanitizedTableData.map((currentRow) => ( currentRow.postId))}}"
+                },
+                "id": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "id",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "id",
+                  "computedValue": "{{Table3.sanitizedTableData.map((currentRow) => ( currentRow.id))}}"
+                },
+                "name": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "name",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "name",
+                  "computedValue": "{{Table3.sanitizedTableData.map((currentRow) => ( currentRow.name))}}"
+                },
+                "email": {
+                  "index": 3,
+                  "width": 150,
+                  "id": "email",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "email",
+                  "computedValue": "{{Table3.sanitizedTableData.map((currentRow) => ( currentRow.email))}}"
+                },
+                "body": {
+                  "index": 4,
+                  "width": 150,
+                  "id": "body",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "body",
+                  "computedValue": "{{Table3.sanitizedTableData.map((currentRow) => ( currentRow.body))}}"
+                }
+              },
+              "delimiter": ",",
+              "key": "5jha7r3l96",
+              "derivedColumns": {},
+              "rightColumn": 60,
+              "textSize": "PARAGRAPH",
+              "widgetId": "2p3x7gq9d8",
+              "isVisibleFilters": true,
+              "tableData": "{{Query1Copy.data}}",
+              "isVisible": true,
+              "label": "Data",
+              "searchKey": "",
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              }
             }
           ]
         },
@@ -1111,6 +1269,15 @@
           ],
           [
             {
+              "id": "on page load_Query1Copy",
+              "name": "Query1Copy",
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "on page load_get_data",
               "name": "get_data",
               "pluginType": "DB",
@@ -1120,17 +1287,18 @@
           ]
         ],
         "widgetNames": [
-          "List1",
           "Button1",
-          "Canvas1",
-          "Select1",
-          "Canvas2",
-          "Table2",
           "Image1",
           "Container1",
           "Text2",
           "Text1",
           "MainContainer",
+          "List1",
+          "Canvas1",
+          "Select1",
+          "Canvas2",
+          "Table2",
+          "Table3",
           "Table1"
         ],
         "validOnPageLoadActions": true,
