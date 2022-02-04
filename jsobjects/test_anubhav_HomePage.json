@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "test_anubhav",
+    "pageId": "HomePage",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\nsayHi() { return \"hi\"; }\n}",
+    "variables": []
+  },
+  "id": "HomePage_test_anubhav",
+  "deleted": false,
+  "gitSyncId": "61fcc542a0891039cc9e76d7_61fcc554a0891039cc9e76fb"
+}
