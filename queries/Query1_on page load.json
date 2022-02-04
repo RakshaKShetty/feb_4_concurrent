@@ -14,6 +14,7 @@
     },
     "pageId": "on page load",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "{\n  \"find\": \"movies\",\n  \"filter\": {\n    \"homepage\": \"https://movies.disney.com/cruella\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n",
