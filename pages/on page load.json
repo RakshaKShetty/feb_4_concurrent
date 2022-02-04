@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1210,
+          "bottomRow": 1280,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -1068,6 +1068,42 @@
                 "step": 62,
                 "status": 75
               }
+            },
+            {
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 122,
+              "bottomRow": 126,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.65625,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 2,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "j1sz7rj6fw",
+              "isRequired": false,
+              "rightColumn": 22,
+              "widgetId": "syfok1sr9g",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": "{{JSObject1.myFun1()}}"
             }
           ]
         },
@@ -1093,6 +1129,7 @@
         ],
         "widgetNames": [
           "List1",
+          "Input1",
           "Canvas1",
           "Select1",
           "Canvas2",
