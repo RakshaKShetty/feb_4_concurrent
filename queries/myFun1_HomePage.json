@@ -16,6 +16,7 @@
     "pageId": "HomePage",
     "collectionId": "HomePage_JSObject6",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\t//write code here\n\t}",
