@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1220,
+          "bottomRow": 1280,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -1666,7 +1666,7 @@
               "displayName": "Table",
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
               "topRow": 88,
-              "bottomRow": 120,
+              "bottomRow": 126,
               "isSortable": true,
               "parentRowSpace": 10,
               "type": "TABLE_WIDGET",
@@ -1829,15 +1829,15 @@
           ],
           [
             {
-              "id": "Mongo_Movies_CRUD_getPosts",
-              "name": "getPosts",
+              "id": "Mongo_Movies_CRUD_Query1",
+              "name": "Query1",
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Mongo_Movies_CRUD_Query1",
-              "name": "Query1",
+              "id": "Mongo_Movies_CRUD_getPosts",
+              "name": "getPosts",
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
