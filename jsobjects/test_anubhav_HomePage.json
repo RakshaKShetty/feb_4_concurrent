@@ -6,8 +6,18 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\nsayHi() { return \"hi\"; }\n}",
-    "variables": []
+    "body": "export default {\nsayHi() { return \"hi\"; },\n\tcommoncommit: [1,2, 3,4]\n}",
+    "variables": [
+      {
+        "name": "commoncommit",
+        "value": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
   },
   "id": "HomePage_test_anubhav",
   "deleted": false,
