@@ -19,11 +19,17 @@
   "publishedLayoutmongoEscapedWidgets": {
     "Mongo_Movies_CRUD": [
       "data_table"
+    ],
+    "on page load": [
+      "Table2"
     ]
   },
   "unpublishedLayoutmongoEscapedWidgets": {
     "Mongo_Movies_CRUD": [
       "data_table"
+    ],
+    "on page load": [
+      "Table2"
     ]
   }
 }
