@@ -1427,15 +1427,15 @@
           ],
           [
             {
-              "id": "on page load_Query1Copy",
-              "name": "Query1Copy",
+              "id": "on page load_Query1CopyCopy",
+              "name": "Query1CopyCopy",
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "on page load_Query1CopyCopy",
-              "name": "Query1CopyCopy",
+              "id": "on page load_Query1Copy",
+              "name": "Query1Copy",
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
