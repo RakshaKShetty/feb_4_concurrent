@@ -833,7 +833,7 @@
                   "key": "primaryColumns.homepage.computedValue"
                 }
               ],
-              "leftColumn": 1,
+              "leftColumn": 12,
               "primaryColumns": {
                 "appsmith_mongo_escape_id": {
                   "index": 6,
@@ -1045,7 +1045,7 @@
               "delimiter": ",",
               "key": "x2981y4pei",
               "derivedColumns": {},
-              "rightColumn": 35,
+              "rightColumn": 46,
               "textSize": "PARAGRAPH",
               "widgetId": "t133952leq",
               "isVisibleFilters": true,
