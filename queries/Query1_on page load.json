@@ -12,7 +12,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "on page load",
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
@@ -38,7 +38,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Query1",
+  "id": "on page load_Query1",
   "deleted": false,
   "gitSyncId": "61fcbfc0a0891039cc9e763e_61fcc09ea0891039cc9e766f"
 }
