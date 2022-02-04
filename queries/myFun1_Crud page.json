@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun1",
-    "fullyQualifiedName": "test_.myFun1",
+    "fullyQualifiedName": "JSObject1.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,9 +14,8 @@
       "userPermissions": []
     },
     "pageId": "Crud page",
-    "collectionId": "Crud page_test_",
+    "collectionId": "Crud page_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\t//write code here\n\t}",
@@ -42,5 +41,5 @@
   },
   "id": "Crud page_myFun1",
   "deleted": false,
-  "gitSyncId": "61fcbc23a0891039cc9e75e8_61fcc59ba0891039cc9e7701"
+  "gitSyncId": "61fcb9cda0891039cc9e75cf_61fcc5d4a0891039cc9e7715"
 }
