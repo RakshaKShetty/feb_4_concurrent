@@ -16,6 +16,14 @@
     "deleted": false,
     "policies": []
   },
-  "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "publishedLayoutmongoEscapedWidgets": {
+    "Mongo_Movies_CRUD": [
+      "data_table"
+    ]
+  },
+  "unpublishedLayoutmongoEscapedWidgets": {
+    "Mongo_Movies_CRUD": [
+      "data_table"
+    ]
+  }
 }
