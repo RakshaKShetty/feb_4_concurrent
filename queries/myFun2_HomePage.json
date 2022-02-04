@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun2",
-    "fullyQualifiedName": "JSObject5.myFun2",
+    "fullyQualifiedName": "JSObject6.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "HomePage",
-    "collectionId": "HomePage_JSObject5",
+    "collectionId": "HomePage_JSObject6",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,5 +42,5 @@
   },
   "id": "HomePage_myFun2",
   "deleted": false,
-  "gitSyncId": "61fcc5d7a0891039cc9e7719_61fcc8caa0891039cc9e77d5"
+  "gitSyncId": "61fcc5d7a0891039cc9e7719_61fcc924a0891039cc9e77dc"
 }
