@@ -16,6 +16,7 @@
     "pageId": "Crud page",
     "collectionId": "Crud page_JSObject1",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "async () => {\n\t\t//do async stuff here or use JS promises\n\t}",
